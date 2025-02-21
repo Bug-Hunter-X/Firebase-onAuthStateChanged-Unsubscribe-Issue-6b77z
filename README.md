@@ -1,0 +1,2 @@
+# Firebase onAuthStateChanged Unsubscribe Issue
+This repo demonstrates a common error when using Firebase's `onAuthStateChanged` and how to solve it.  The issue centers around correctly unsubscribing from the listener to prevent memory leaks. Improperly handling the unsubscribe leads to persistent listeners even after component unmounts.  The solution provides a robust method with error handling.  See the code files for a clear comparison of the problematic code and its fix.
